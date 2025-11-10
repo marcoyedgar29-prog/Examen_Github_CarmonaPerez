@@ -1,0 +1,159 @@
+/* Estilos generales */
+body {
+	/* ...valores por defecto... */
+	font-family: 'Segoe UI', Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	color: #023e8a;
+}
+
+/* Página principal (Index) */
+body.index {
+	background: linear-gradient(to right, #caf0f8, #90e0ef);
+	text-align: center;
+}
+
+header {
+	background-color: #0077b6;
+	color: white;
+	padding: 25px;
+	border-bottom: 5px solid #023e8a;
+}
+
+h1 { margin: 0; font-size: 2.5em; }
+h2 { color: #03045e; }
+
+main { padding: 40px 20px; }
+
+.tarjeta {
+	background-color: white;
+	border-radius: 15px;
+	padding: 25px;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+	max-width: 700px;
+	margin: 0 auto;
+	color: #023e8a;
+}
+
+.botones {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 30px;
+	margin-top: 40px;
+}
+
+a {
+	background-color: #0096c7;
+	color: white;
+	text-decoration: none;
+	padding: 15px 30px;
+	border-radius: 10px;
+	font-size: 1.2em;
+	transition: all 0.3s ease;
+}
+
+a:hover {
+	background-color: #023e8a;
+	transform: scale(1.05);
+}
+
+footer {
+	background-color: #0077b6;
+	color: white;
+	padding: 15px;
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+}
+
+/* ---------- Estilos página Deportes ---------- */
+body.deportes {
+	font-family: Arial, sans-serif;
+	line-height: 1.6;
+	margin: 20px;
+	background-color: #f4f4f4;
+	color: #333;
+}
+
+body.deportes header,
+body.deportes section {
+	background-color: #fff;
+	padding: 20px;
+	margin-bottom: 20px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+body.deportes h1, body.deportes h2 { color: #333; }
+body.deportes p { margin-bottom: 15px; }
+
+body.deportes img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: 10px 0;
+	border-radius: 8px;
+}
+
+body.deportes blockquote {
+	font-style: italic;
+	color: #555;
+	border-left: 4px solid #ccc;
+	padding-left: 10px;
+	margin: 15px 0;
+}
+
+body.deportes a { color: #0077cc; }
+
+/* ---------- Estilos página Cultura ---------- */
+body.cultura {
+	font-family: 'Segoe UI', Arial, sans-serif;
+	background-color: #f0f4f8;
+	color: #333;
+	margin: 0;
+	padding: 0;
+}
+
+body.cultura header {
+	background-color: #005f73;
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
+
+body.cultura h1 { font-size: 2.5em; margin: 0; }
+body.cultura h2 { color: #0a9396; }
+body.cultura h3 { color: #005f73; }
+
+body.cultura section {
+	padding: 20px;
+	max-width: 900px;
+	margin: auto;
+}
+
+body.cultura img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	margin: 15px auto;
+	border-radius: 10px;
+}
+
+body.cultura a { color: #0a9396; }
+body.cultura a:hover { text-decoration: underline; }
+
+body.cultura ul {
+	background-color: #036969;
+	padding: 15px;
+	border-radius: 8px;
+	color: white;
+}
+
+body.cultura footer {
+	background-color: #005f73;
+	color: white;
+	text-align: center;
+	padding: 10px;
+}
